@@ -1,129 +1,246 @@
 <!DOCTYPE html>
-<html lang="pt-br" dir="ltr">
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link href="https://unpkg.com/browse/bootstrap@4.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://unpkg.com/browse/bootstrap@4.1.0/dist/css/bootstrap.css" rel="stylesheet">
+    <title> Frontys Dashboard </title>
     <link rel="stylesheet" href="styles/styles.css">
+    <!-- Boxicons CDN Link -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
 <body>
-  <div class="sidebar close">
+  <div class="sidebar">
     <div class="logo-details">
-      <i class='logo-ico'><img src="assets/images/white-circle-f.png" alt="Frontys" height="32px"></i>
-      <span class="logo_name">Frontys Web</span>
+      <img src="assets/images/white-circle-f.png" height="32px">
+      <span class="logo_name">FrontysWeb</span>
     </div>
-    <ul class="nav-links">
-      <li>
-        <a href="#">
-          <i class='bx bx-grid-alt' ></i>
-          <span class="link_name">Dashboard</span>
-        </a>
-        <ul class="sub-menu blank">
-          <li><a class="link_name" href="#">Cadastros</a></li>
-        </ul>
-      </li>
-      <li>
-        <div class="iocn-link">
-          <a href="#">
-            <i class='bx bx-collection' ></i>
-            <span class="link_name">Cadastros</span>
+      <ul class="nav-links">
+        <li>
+          <a href="#" class="active">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">Dashboard</span>
           </a>
-          <i class='bx bxs-chevron-down arrow' ></i>
-        </div>
-        <ul class="sub-menu">
-          <li><a class="link_name" href="#">Cadastros</a></li>
-          <li><a href="#">Clientes</a></li>
-          <li><a href="#">Fornecedores</a></li>
-          <li><a href="#">Produtos</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="#">
-          <i class='bx bx-pie-chart-alt-2' ></i>
-          <span class="link_name">Gráficos</span>
-        </a>
-        <ul class="sub-menu blank">
-          <li><a class="link_name" href="#">Gráficos</a></li>
-        </ul>
-      </li>
-      <li>
-        <div class="iocn-link">
-        <a href="#">
-          <i class='bx bx-line-chart' ></i>
-          <span class="link_name">Relatórios</span>
-        </a>
-        <i class='bx bxs-chevron-down arrow' ></i>
-        </div>
-        <ul class="sub-menu">
-          <li><a href="#">Vendas</a></li>
-          <li><a href="#">Compras</a></li>
-          <li><a href="#">Lucratividade</a></li>
-        </ul>
-      </li>
-      <li>
-        <div class="iocn-link">
+        </li>
+        <li>
           <a href="#">
-            <i class='bx bx-plug' ></i>
-            <span class="link_name">Segurança</span>
+            <i class='bx bx-box' ></i>
+            <span class="links_name">Produtos</span>
           </a>
-          <i class='bx bxs-chevron-down arrow' ></i>
-        </div>
-        <ul class="sub-menu">
-          <li><a class="link_name" href="#">Segurança</a></li>
-          <li><a href="#">Alterar Senhas</a></li>
-          <li><a href="#">Permissões</a></li>
-          <li><a href="#">Auditoria de Usuários</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="#">
-          <i class='bx bx-compass' ></i>
-          <span class="link_name">Exportar Produtos</span>
-        </a>
-        <ul class="sub-menu blank">
-          <li><a class="link_name" href="#">Exportar Produtos</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="#">
-          <i class='bx bx-cog' ></i>
-          <span class="link_name">Parametros</span>
-        </a>
-        <ul class="sub-menu blank">
-          <li><a class="link_name" href="#">Parametros</a></li>
-        </ul>
-      </li>
-      <li>
-    <div class="profile-details">
-      <div class="profile-content">
-        <!--<img src="image/profile.jpg" alt="profileImg">-->
-      </div>
-      <div class="name-job">
-        <div class="profile_name">Administrador</div>
-        <div class="job">Frontys</div>
-      </div>
-      <i class='bx bx-log-out' ></i>
-    </div>
-  </li>
-</ul>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-pie-chart-alt-2' ></i>
+            <span class="links_name">Relatórios</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-coin-stack' ></i>
+            <span class="links_name">Estoque</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-book-alt' ></i>
+            <span class="links_name">Compras</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-user' ></i>
+            <span class="links_name">Usuários</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-message' ></i>
+            <span class="links_name">Alertas</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-cog' ></i>
+            <span class="links_name">Parametros</span>
+          </a>
+        </li>
+        <li class="log_out">
+          <a href="#">
+            <i class='bx bx-log-out'></i>
+            <span class="links_name">Sair</span>
+          </a>
+        </li>
+      </ul>
   </div>
   <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">Frontys Dashboard</span>
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="Pesquisar...">
+        <i class='bx bx-search' ></i>
+      </div>
+      <div class="profile-details">
+        <img src="assets/images/fagner.jpg" alt="Usuario">
+        <span class="admin_name">Administrador</span>
+        <i class='bx bx-chevron-down' ></i>
+      </div>
+    </nav>
+
     <div class="home-content">
-    <i class='bx bx-menu'></i>
-      <div>
-      <span class="text">Frontys Dashboard</span>
+      <div class="overview-boxes">
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Total Vendas</div>
+            <div class="number">R$ 40.876,00</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">Maior que ontem</span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Total Compras</div>
+            <div class="number">R$38.876,00</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">Maior que ontem</span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Lucratividade</div>
+            <div class="number">R$12.876,00</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">Maior que ontem</span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Pagamentos</div>
+            <div class="number">R$11.086,96</div>
+            <div class="indicator">
+              <i class='bx bx-down-arrow-alt down'></i>
+              <span class="text">Pior que ontem</span>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="search-bx">
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-        </form>
+
+      <div class="sales-boxes">
+        <div class="recent-sales box">
+          <div class="title">Ultimas Vendas</div>
+          <div class="sales-details">
+            <ul class="details">
+              <li class="topic">Date</li>
+              <li><a href="#">15 AGO 2021</a></li>
+              <li><a href="#">15 AGO 2021</a></li>
+              <li><a href="#">15 AGO 2021</a></li>
+              <li><a href="#">15 AGO 2021</a></li>
+              <li><a href="#">15 AGO 2021</a></li>
+              <li><a href="#">15 AGO 2021</a></li>
+              <li><a href="#">15 AGO 2021</a></li>
+              <li><a href="#">15 AGO 2021</a></li>
+              <li><a href="#">15 AGO 2021</a></li>
+            </ul>
+            <ul class="details">
+            <li class="topic">Cliente</li>
+            <li><a href="#">Andre Simoes</a></li>
+            <li><a href="#">Ricardo Capra</a></li>
+            <li><a href="#">Mateus Henrique</a></li>
+            <li><a href="#">Thyago Noventa</a></li>
+            <li><a href="#">Fagner Menezes</a></li>
+            <li><a href="#">Jair Bolsonaro</a></li>
+            <li><a href="#">Lula da Silva</a></li>
+            <li><a href="#">Fernando Henrique</a></li>
+             <li><a href="#">Barack Obama</a></li>
+          </ul>
+          <ul class="details">
+            <li class="topic">Status</li>
+            <li><a href="#">Finalizado</a></li>
+            <li><a href="#">Finalizado/a></li>
+            <li><a href="#">Finalizado</a></li>
+            <li><a href="#">Entrega Pendente</a></li>
+            <li><a href="#">Entrega Pendente</a></li>
+            <li><a href="#">Cancelado</a></li>
+            <li><a href="#">Finalizado</a></li>
+             <li><a href="#">Finalizado</a></li>
+            <li><a href="#">Finalizado</a></li>
+          </ul>
+          <ul class="details">
+            <li class="topic">Total</li>
+            <li><a href="#">R$204,98</a></li>
+            <li><a href="#">R$24,55</a></li>
+            <li><a href="#">R$25,88</a></li>
+            <li><a href="#">R$170,66</a></li>
+            <li><a href="#">R$56,56</a></li>
+            <li><a href="#">R$44,95</a></li>
+            <li><a href="#">R$67,33</a></li>
+             <li><a href="#">R$23,53</a></li>
+             <li><a href="#">R$46,52</a></li>
+          </ul>
+          </div>
+          <div class="button">
+            <a href="#">Ver Mais</a>
+          </div>
+        </div>
+        <div class="top-sales box">
+          <div class="title">Produtos Mais Vendidos</div>
+          <ul class="top-sales-details">
+            <li>
+            <a href="#">
+              <span class="product">Teclado Razer</span>
+            </a>
+            <span class="price">R$1100,00</span>
+          </li>
+          <li>
+            <a href="#">
+              <span class="product">Notebook Dell </span>
+            </a>
+            <span class="price">R$3567,90</span>
+          </li>
+          <li>
+            <a href="#">
+              <span class="product">Monitor 144hz</span>
+            </a>
+            <span class="price">R$1234,00</span>
+          </li>
+          <li>
+            <a href="#">
+              <span class="product">Mouse Cougar</span>
+            </a>
+            <span class="price">R$612,00</span>
+          </li>
+          <li>
+            <a href="#">
+              <span class="product">Microfone Condensador</span>
+            </a>
+            <span class="price">R$1456,00</span>
+          </li>
+          <li>
+            <a href="#">
+              <span class="product">RTX 3090</span>
+            </a>
+            <span class="price">R$15990,00</span>
+          <li>
+            <a href="#">
+              <span class="product">Alexa</span>
+            </a>
+            <span class="price">R$349,90</span>
+          </li>
+          </ul>
+        </div>
       </div>
+    </div>
   </section>
- <script src="src/script.js">
-</script>
+
+ <script src="src/script.js"></script>
+
 </body>
 </html>
