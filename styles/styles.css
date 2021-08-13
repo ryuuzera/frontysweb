@@ -264,7 +264,7 @@ nav .profile-details i{
 
 /* left box */
 .home-content .sales-boxes .recent-sales{
-  width: 65%;
+  width: 60%;
   background: #fff;
   padding: 20px 30px;
   margin: 0 20px;
@@ -277,12 +277,12 @@ nav .profile-details i{
   justify-content: space-between;
 }
 .sales-boxes .box .title{
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 600;
   /* margin-bottom: 10px; */
 }
 .sales-boxes .sales-details li.topic{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
 }
 .sales-boxes .sales-details li{
@@ -313,7 +313,22 @@ nav .profile-details i{
 .sales-boxes .box .button a:hover{
   background:  #0d3073;
 }
+/* report box */
+.home-content .sales-report{
+  width: 100%;
+  background: #fff;
+  padding: 30px 10px;
+  margin: 10px 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 
+
+}
+.home-content .sales-report .title{
+  font-size: 22px;
+  font-weight: 600;
+
+}
 /* Right box */
 .home-content .sales-boxes .top-sales{
   width: 35%;
@@ -327,7 +342,7 @@ nav .profile-details i{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 10px 0;
+  margin: 8px 0;
 }
 .sales-boxes .top-sales li a img{
   height: 40px;
